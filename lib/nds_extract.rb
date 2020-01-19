@@ -12,6 +12,9 @@ while i < director_data.length do
   j=0
   
   while j < current_director[:movies].length
+    
+    
+  end
 
 end
 
