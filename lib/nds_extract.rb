@@ -4,18 +4,19 @@ require 'pry'
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
+
+
 def gross_for_director(director_data)
 i=0
+total=0
 while i < director_data.length do
-    
   current_director = director_data[i]
   j=0
-  
   while j < current_director[:movies].length
-    
+    total += current_director[:movies][:worldwide_grosses]
     
   end
-
+total
 end
 
 
